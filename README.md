@@ -4,9 +4,9 @@ This paper investigates the performance of intelligence reflective surface (IRS)
 
 _Please see my presentation report **IRS_relay_globecom.pdf** for more information_ (Click here to open: [Link Alan_Devkota_presentation.pdf click here](./V1/IRS_relay_globecom.pdf))
 
-_You can also see the presentation video here_ (Video : [Link presentation_video click here](./Presentation.mp4))
+_You can also see the presentation video here_ (Video : [Link presentation_video click here](https://saluki-my.sharepoint.com/:v:/g/personal/alan_devkota_siu_edu/EdIBVGc_q1BHr-8UEgZLWCUBJE-DVo3qc90SJKCcQY2IEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jv29gn))
 
-_Please see my **GLOBECOMM 2021** Conference video here_ (Link: [Link Thesis_Report click here](https://search.proquest.com/openview/51b8734f2a802215f1a126e336c397f8/1?pq-origsite=gscholar&cbl=18750&diss=y))
+_Please see my **GLOBECOMM 2021** Conference video here_ (Link: [Link Thesis_Report click here](https://ieeexplore.ieee.org/iel7/9685019/9685006/09685500.pdf))
 
 # System and channel model
 
