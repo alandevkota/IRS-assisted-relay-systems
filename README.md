@@ -4,9 +4,9 @@ This paper investigates the performance of intelligence reflective surface (IRS)
 
 _Please see my presentation report **IRS_relay_globecom.pdf** for more information_ (Click here to open: [Link Alan_Devkota_presentation.pdf click here](./V1/IRS_relay_globecom.pdf))
 
-_You can also see the presentation video here_ (Video : [Link presentation_video click here](https://saluki-my.sharepoint.com/:v:/g/personal/alan_devkota_siu_edu/EdIBVGc_q1BHr-8UEgZLWCUBJE-DVo3qc90SJKCcQY2IEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jv29gn))
+_You can also see my **GLOBECOMM 2021** Conference video here_ (Video : [Link presentation_video click here](https://saluki-my.sharepoint.com/:v:/g/personal/alan_devkota_siu_edu/EdIBVGc_q1BHr-8UEgZLWCUBJE-DVo3qc90SJKCcQY2IEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jv29gn))
 
-_Please see my **GLOBECOMM 2021** Conference video here_ (Link: [Link IEEE Globecomm 2021 click here](https://ieeexplore.ieee.org/iel7/9685019/9685006/09685500.pdf))
+_Please see my **IEEE GLOBECOMM 2021** paper here_ (Link: [Link IEEE Globecomm 2021 click here](https://ieeexplore.ieee.org/iel7/9685019/9685006/09685500.pdf))
 
 # System and channel model
 
