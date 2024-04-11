@@ -1,0 +1,12 @@
+\DeclareOptionBeamer{shadow}[true]{\def\beamer@themeisit@shadow{#1}}
+\ExecuteOptionsBeamer{shadow=false}
+\ProcessOptionsBeamer
+
+\mode<presentation>
+
+\setbeamertemplate{items}[circle]
+\setbeamertemplate{sections/subsections in toc}[circle]
+\setbeamertemplate{blocks}[rounded][shadow=\beamer@themeisit@shadow]
+\setbeamertemplate{part page}[default][colsep=-4bp,rounded=true,shadow=\beamer@themeisit@shadow]
+
+\mode<all>

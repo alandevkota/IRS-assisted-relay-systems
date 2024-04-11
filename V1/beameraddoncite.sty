@@ -1,0 +1,59 @@
+% author: UM
+% custonized citations
+% verion: 1.0
+
+% defines two commands 
+%
+% \citearticle{biblabel}
+% \citebook{biblabel}
+% 
+% use \nobibliography{...} instead of \bibliography{...} in your document
+
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beameraddoncite}
+
+\RequirePackage{calc}
+\RequirePackage{pbox}
+
+\RequirePackage{bibentry}
+\nobibliography*
+
+
+
+\def\beameraddoncite@iconscale{0.8}
+
+\newlength{\beameraddoncite@iconarticlewidth}
+\setlength{\beameraddoncite@iconarticlewidth}{\widthofpbox{\scalebox{\beameraddoncite@iconscale}{\pgfuseimage{beamericonarticle}}}}
+\newlength{\beameraddoncite@iconbookwidth}
+\setlength{\beameraddoncite@iconbookwidth}{\widthofpbox{\scalebox{\beameraddoncite@iconscale}{\pgfuseimage{beamericonbook}}}}
+\newlength{\beameraddoncite@iconarticleheight}
+\setlength{\beameraddoncite@iconarticleheight}{\widthofpbox{\rotatebox{90}{\scalebox{\beameraddoncite@iconscale}{\pgfuseimage{beamericonarticle}}}}}
+\newlength{\beameraddoncite@iconbookheight}
+\setlength{\beameraddoncite@iconbookheight}{\widthofpbox{\rotatebox{90}{\scalebox{\beameraddoncite@iconscale}{\pgfuseimage{beamericonbook}}}}}
+
+
+\newcommand{\citearticle}[1]{%
+{\scriptsize
+\vskip0.3em
+\parbox[t]{\beameraddoncite@iconbookwidth+0.4em}{\raisebox{1em-\beameraddoncite@iconarticleheight-0.5mm}{\scalebox{0.8}{\pgfuseimage{beamericonarticle}}}}%
+\begin{minipage}[t]{\linewidth-\beameraddoncite@iconbookwidth-0.4em}
+  {\bibentry{#1}}
+\end{minipage}}%
+}
+
+\newcommand{\citebook}[1]{%
+{\scriptsize
+\vskip0.3em
+\parbox[t]{\beameraddoncite@iconbookwidth+0.4em}{\raisebox{1em-\beameraddoncite@iconbookheight-0.5mm}{\scalebox{0.8}{\pgfuseimage{beamericonbook}}}}%
+\begin{minipage}[t]{\linewidth-\beameraddoncite@iconbookwidth-0.4em}
+  {\bibentry{#1}}
+\end{minipage}}%
+}
+
+
+
+
+
+

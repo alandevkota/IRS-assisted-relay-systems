@@ -1,0 +1,247 @@
+\setbeamercolor{section in head/foot}{parent=palette tertiary}
+\setbeamercolor{subsection in head/foot}{parent=palette secondary}
+\setbeamercolor{author in head/foot}{parent=subsection in head/foot}
+\setbeamercolor{title in head/foot}{parent=section in head/foot}
+
+%page width
+\setbeamersize{text margin left=1.5em,text margin right=1.5em}
+
+\def\beamer@theme@footline@empty{}
+\def\beamer@theme@footline@authorinstitute{
+  \defbeamertemplate*{footline}{TUM theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+      \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
+      \hfill%
+      {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+}
+\def\beamer@theme@footline@authortitle{
+  \defbeamertemplate*{footline}{TUM theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      \leavevmode{\usebeamerfont{title in head/foot}\insertshorttitle}%
+      \hfill%
+      {\usebeamerfont{author in head/foot}\usebeamercolor[fg]{author in head/foot}\insertshortauthor}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+}
+\def\beamer@theme@footline@titleframenumber{
+  \defbeamertemplate*{footline}{TUM theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      \leavevmode{\usebeamerfont{title in head/foot}\insertshorttitle}%
+      \hfill%
+      {\usebeamerfont{author in head/foot}\usebeamercolor[fg]{author in head/foot}\insertframenumber{} / \inserttotalframenumber}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+}
+\def\beamer@theme@footline@titleauthorframenumber{
+  \defbeamertemplate*{footline}{TUM theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      \leavevmode{\usebeamerfont{title in head/foot}\insertshorttitle}%
+      \hfill%
+      {\usebeamerfont{author in head/foot}\usebeamercolor[fg]{author in head/foot}\insertshortauthor%
+      \hfill%
+      \makebox[3ex]{\insertframenumber}}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+}
+\def\beamer@theme@footline@institutetitle{
+  \defbeamertemplate*{footline}{TUM theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      \leavevmode{\usebeamerfont{title in head/foot}\insertshorttitle}%
+      \hfill%
+      {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+}
+\def\beamer@theme@footline@authorinstitutetitle{
+  \defbeamertemplate*{footline}{TUM theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+      \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
+      \hfill%
+      {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      {\usebeamerfont{title in head/foot}\insertshorttitle}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+}
+
+
+
+\def\beamer@theme@headline@empty{
+  \defbeamertemplate*{headline}{TUM theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line head}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}{section in head/foot}
+      \vskip2pt\insertnavigation{\paperwidth}\vskip2pt
+    \end{beamercolorbox}%
+    \ifbeamer@theme@subsection%
+      \begin{beamercolorbox}[colsep=1.5pt]{middle separation line head}
+      \end{beamercolorbox}
+      \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+        leftskip=.3cm,rightskip=.3cm plus1fil]{subsection in head/foot}
+        \usebeamerfont{subsection in head/foot}\insertsubsectionhead
+      \end{beamercolorbox}%
+    \fi%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line head}
+    \end{beamercolorbox}
+  }
+}
+
+
+\def\beamer@theme@headline@simple{
+\defbeamertemplate*{headline}{TUM theme}
+  {
+    \leavevmode%
+    \hbox{%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right]{section in head/foot}%
+      \usebeamerfont{section in head/foot}\insertsectionhead\hspace*{2ex}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,left]{subsection in head/foot}%
+      \usebeamerfont{subsection in head/foot}\hspace*{2ex}\insertsubsectionhead
+    \end{beamercolorbox}}%
+    \vskip0pt%
+  }
+}
+
+
+
+\def\beamer@theme@headline@none{
+\defbeamertemplate*{headline}{TUM theme}
+  {
+   
+  }
+}
+
+
+
+
+
+%\setbeamercolor{frametitle right}{parent=section in head/foot}
+
+
+\pgfdeclarehorizontalshading[frametitle.bg,frametitle right.bg]{beamer@frametitleshade}{\paperheight}{%
+  color(0pt)=(white);
+  color(\paperwidth)=(white)
+}
+
+\AtBeginDocument{
+  \pgfdeclareverticalshading{beamer@topshade}{\paperwidth}{%
+    color(0pt)=(white);
+    color(4pt)=(white)
+    %color(0pt)=(bg);
+    %color(4pt)=(black!50!bg)
+    }
+}
+
+\addtobeamertemplate{headline}
+{}
+{%
+  \vskip-0.2pt
+  \pgfuseshading{beamer@topshade}
+  \vskip-2pt
+}
+
+
+\defbeamertemplate*{frametitle}{TUM theme}
+{%
+  \nointerlineskip%
+  \vskip+2bp%
+  \hbox{\leavevmode
+    \advance\beamer@leftmargin by -12bp%
+    \advance\beamer@rightmargin by -12bp%
+    \beamer@tempdim=\textwidth%
+    \advance\beamer@tempdim by \beamer@leftmargin%
+    \advance\beamer@tempdim by \beamer@rightmargin%
+    \hskip-\Gm@lmargin\hbox{%
+      \setbox\beamer@tempbox=\hbox{\begin{minipage}[b]{\paperwidth}%
+          \vbox{}\vskip+0.2bp%
+          \leftskip0.3cm%
+          \rightskip0.3cm plus1fil\leavevmode
+          \insertframetitle%
+          \ifx\insertframesubtitle\@empty%
+            \strut\par%
+          \else
+            \par{\usebeamerfont*{framesubtitle}{\usebeamercolor[fg]{framesubtitle}\insertframesubtitle}\strut\par}%
+          \fi%
+          \nointerlineskip
+          \vbox{}%
+          \end{minipage}}%
+      \beamer@tempdim=\ht\beamer@tempbox%
+      \advance\beamer@tempdim by 2pt%
+      \begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
+        \usebeamercolor{frametitle right}
+        \pgfrect[clip]{\pgforigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
+        \pgfbox[left,base]{\pgfuseshading{beamer@frametitleshade}}
+      \end{pgfpicture}
+      \hskip-\paperwidth%
+      \box\beamer@tempbox%
+    }%
+    \hskip-\Gm@rmargin%
+  }%
+  \nointerlineskip
+    \vskip-0.2pt
+    \hbox to\textwidth{\hskip-\Gm@lmargin\pgfuseshading{beamer@topshade}\hskip-\Gm@rmargin}
+    \vskip-2pt
+}
+
+
+\newif\ifbeamer@theme@subsection
+\beamer@theme@subsectiontrue
+
+\DeclareOptionBeamer{footline}{\csname beamer@theme@footline@#1\endcsname}
+\DeclareOptionBeamer{headline}{\csname beamer@theme@headline@#1\endcsname}
+\DeclareOptionBeamer{subsection}[true]{\csname beamer@theme@subsection#1\endcsname}
+\ProcessOptionsBeamer
+
+
+\mode<presentation>
+
+                                % Head
+
+
+
+
+
+
+\mode
+<all>
